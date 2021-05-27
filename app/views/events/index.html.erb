@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+<div>
+  <p class="title">Agenda</p>
+
+  <table class="table is-striped is-hoverable is-fullwidth">
+    <tfoot>
+      <tr>
+        <td colspan="3">
+          <%= link_to 'New event', new_event_path %>
+        </td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <% @events.order(:date).each do |event| %>
+        <tr>
+          <td>
+            <%= l event.date %>
+          </td>
+          <td>
+            <%= event.title %>
+          </td>
+          <td>
+            <%= truncate(strip_tags(event.description), length: 80) %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

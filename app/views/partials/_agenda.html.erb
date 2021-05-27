@@ -1,0 +1,25 @@
+<div class="columns">
+    <div class="column"></div>
+    <div class="column is-half">
+        <p class="title is-2 has-text-centered">Agenda</p>
+
+        <table>
+            <tbody>
+            <% Event.order(:date).limit(3).each do |event| %>
+                <tr class="box tr-border">
+                    <td class="subtitle is-7 has-text-weight-normal mr-6">
+                        <p><%= event.date.day %></p>
+                        <p><%= l event.date, format: :month %></p>
+                        <p><%= event.date.year %></p>
+                    </td>
+                    <td>
+                        <p class="title is-4"><%= event.title %></p>
+                        <p class="content"><%= truncate(strip_tags(event.description), length: 120) %></p>
+                    </td>
+                </tr>
+            <% end %>
+            </tbody>
+        </table>
+    </div>
+    <div class="column"></div>
+</div>
