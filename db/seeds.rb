@@ -7,27 +7,136 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Event.create!(
-    title: 'Mon premier évènement',
-    date: '2021-04-19',
+    title: 'Résultats de l\'enquête et perspectives - Covid-19, où en sont 
+    les associations un an après ?',
+    date: '2021-06-08',
     description: %{<p>
-        <em>Ceci est le premier évènement</em>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <b>10 000 associations ont témoigné à l'occasion de la nouvelle 
+        enquête sur les impacts de la crise sanitaire menée par le Mouvement 
+        associatif, le Réseau National des Maisons des Associations et 
+        Recherches & Solidarités.</b>
+        Un an après le début de la crise : Quels impacts sur les associations ?<br>
+        Quels besoins ont émergé ?<br>
+        Quelles sont les perspectives envisagées par les acteurs ?<br>
+        Quelles solutions ont-ils mis en place pour faire face à la crise?<br>
+        <br>
+        <br>
+        Pour le savoir, nous vous donnons rendez-vous le 8 juin à 17h00 !
+        <b>S'inscrire</b>
         </p>})
 
 Event.create!(
-    title: 'Mon deuxième évènement',
-    date: '2021-04-21',
+    title: '[Web-conférence] Collectivités et accompagnement des associations',
+    date: '2021-06-15',
     description: %{<p>
-        <em>Ceci est le deuxième évènement</em>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <b>Web-conférence en visio, mardi 15 juin entre 9h30 et 11h30
+        <br><br>
+        Objectifs</b>
+        Le développement de la vie associative locale s'appuie sur des actions 
+        d'accompagnement ( formation, veille, entretiens-conseils, évènements 
+        inter-associatifs...) déployées par une diversité d'acteurs. 
+        L'objectif de cette web-conférence est d'éclairer comment des 
+        collectivités parviennent à positionner un accompagnement qui mixte 
+        une action en propre et des complémentarités avec les structures 
+        locales (Pava, Crib, DLA, MDA...). Se posera également la question 
+        du lien entre divers niveaux de collectivités : municipalités, 
+        agglomérations, départements.
+        <br><br>
+        A partir de témoignages de différents services dédiés à la vie 
+        associative, cette web conférence a vocation à inspirer les collectivités 
+        territoriales et les acteurs de l’accompagnement en rendant visible une 
+        diversité de situations, puis en laissant place à des questions-réponses.
+        <br><br>
+        <b>Interventions :</b>
+        <br><br>
+        Paris – Carrefour des associations Parisiennes - Thomas Billange
+        <br><br>
+        Val-de- Marne - Proj’aide - Aurélie Bruneau
+        <br><br>
+        Nantes – Le Cadran - Gwenaëlle Ridard
+        <br><br>
+        Montrevault-sur-Evre - Service Vie Associative - Nicolas Fribault
+        <br><br>
+        Profession Sport et Loisirs 64 - Reseau Palva et Collectif 
+        Vie Associative Pays Basque - Jean Massoué
+        <br><br>
+        <b>Animation :
+        <br><br>
+        Philippe Lesage - Smacl Assurances
+        <br><br>
+        Paul Bucau - RNMA
+        <br><br>
+        Public visé :</b>
+        <br><br>
+        Techniciens et élus de collectivités locales chargés de la vie associative
+        <br><br>
+        Professionnels de l’accompagnement à la vie associative
+        <br><br>
+        Pouvoirs publics ayant une action de coordination de politiques 
+        publiques relative à l’accompagnement
+        <br><br>
+        <b>Inscription obligatoire</b>
         </p>})
 
 Event.create!(
-    title: 'Mon troisième évènement',
-    date: '2021-04-20',
+    title: '53èmes Rencontres nationales du RNMA - L\'accompagnement de la vie associative sur les territoires',
+    date: '2021-06-24',
     description: %{<p>
-        <em>Ceci est le troisième évènement</em>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <b>En 2021, les 53èmes Rencontres Nationales du RNMA seront l’occasion 
+        de célébrer l’anniversaire des 120 ans de la loi et de se projeter sur 
+        la place des associations sur nos territoires dans les années à 
+        l’avenir, au plus près de l’action des Maisons des associations et des 
+        tissus associatifs locaux.</b>
+        <br><br>
+        <b>Préambule</b>
+        <br><br>
+        <b>L’association de 1901 à 2030</b>
+        <br><br>
+        La loi du 1er juillet 1901 donnait naissance à l’association, 
+        permettant aux « personnes de mettre en commun leurs connaissances 
+        ou leur activité dans un but autre que de partager des bénéfices », 
+        comme son 1er article le stipule. Déjà 120 ans que la société civile 
+        s’organise en associations pour développer des réponses à des besoins 
+        sociaux dans tous les domaines. En 2015, en consacrant le partenariat 
+        avec la société civile au sein du 17ème Objectif de Développement 
+        Durable de l’Agenda 2030, l’ONU réaffirmait la place des citoyens et 
+        des associations pour faire face aux défis sociétaux contemporains.
+        <br><br>
+        <b>Programme :</b>
+        <br><br>
+        <b> Matinée - de 10h à 12h
+        <br><br>
+        Table ronde "Renforcer l’accompagnement des associations sur le 
+        territoire français : quels enjeux et quelles perspectives ?"</b>
+        <br><br>
+        Impulsée en 2019 par Gabriel Attal, alors secrétaire d’Etat à la 
+        Jeunesse, et donnant suite au 59 mesures remises le 8 juin 2018 
+        au 1er Ministre par le Mouvement Associatif, la mesure « Accompagnement 
+        de la Vie Associative Locale » a pour objectif de renforcer cette 
+        fonction partout en France. Cette table-ronde sera l’occasion de 
+        présenter la mesure co-pilotée par la DJEPVA et le Mouvement 
+        Associatif, d’en repartager les enjeux et de situer les motivations 
+        de plusieurs partenaires institutionnels de cette démarche.
+        <br><br>
+        <b>s'inscrire pour participer à la table-ronde</b>
+        <br><br>
+        <b>Après-midi - de 14h30 à 16h30
+        <br><br>
+        Atelier ludique sur la coopération – le Jeu Faire Ensemble 2030</b>
+        <br><br>
+        Le jeu Faire ensemble 2030 vise à sensibiliser les joueurs aux 
+        Objectifs de développement durable (ODD) et à susciter le réflexe 
+        coopératif. Il repose sur une dynamique de résolution de défis en 
+        équipe. Les joueurs incarnent chacun un personnage, acteur clé de 
+        l’Agenda 2030 : l’Etat, l’entreprise, l’association, la collectivité 
+        territoriale, le centre de recherche, l’individu.
+        <br><br>
+        En partenariat avec la Fonda, le RNMA vous propose de jouer une 
+        partie en distanciel.
+        <br><br>
+        <b>Inscription réservée aux membres adhérents du RNMA
+        <br><br>
+        s'inscrire à l'atelier</b>
         </p>})
 
 

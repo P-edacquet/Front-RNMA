@@ -1,7 +1,7 @@
 <div class="post">
-  <p class="title is-2 has-text-centered">À la une</p>
-  <div class="columns">
-        <% Post.order(date: :desc).limit(4).each do |post| %>
+  <p class="title is-2 mt-3 has-text-centered">À la une</p>
+  <div class="columns mx-6">
+        <% Post.order(date: :desc).limit(3).each do |post| %>
           <%= render partial: 'partials/post_card', locals: { post: post } %>
         <% end %>
   </div>
@@ -9,11 +9,9 @@
   <section class="hero is-link is-small">
     <div class="hero-body">
       <div class="container has-text-centered">
-      <form method="get" action="/pages/posts">
-        <button type="submit" class="button is-primary is-centered">Plus d'actualités</button>
-      </form>
-        <!--<button class="button is-primary is-centered"><%#= link_to 'pages_posts_path', Toutes les actualités %></button>
-        <a href="<%= 'pages_posts_path' %>">Plus d'actualités</a>-->
+        <button class="button is-primary is-centered">
+          <%= link_to 'Toutes les actualités', pages_posts_path %>
+        </button>
       </div>
     </div>
   </section>
